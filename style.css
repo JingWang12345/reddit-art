@@ -1,0 +1,15 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    background-color: rgb(236, 160, 78);
+    display: flex;
+}
+header{
+    display: flex;
+
+}
+h1{
+   
+}

@@ -21,7 +21,7 @@ class RedditService{
 
         for (let i = 0; i < children.length; i++) {
             const child = children[i];
-
+            console.log(child);
             const childData = child.data;
 
             const childObject= {

@@ -10,6 +10,6 @@ header{
     display: flex;
 
 }
-h1{
-   
+.postcard{
+   border: solid 5px rgb(58, 26, 219);
 }

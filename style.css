@@ -1,15 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&family=Ubuntu&display=swap');
 *{
     padding: 0;
     margin: 0;
+    font-family:'Rubik', sans-serif; ;
+    /* border: solid 5px rgb(58, 26, 219, 0.2); */
 }
 html{
-    background-color: rgb(236, 160, 78);
+    background-color: rgb(244, 210, 175);
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 header{
     display: flex;
+    /* position:absolute; */
+    height: 20vh;
+    width:50vw;
+    align-items: center;
+    justify-content: center;
+    /* border: solid 5px rgb(58, 26, 219, 0.2);
+   background-color: rgb(249, 237, 220); */
+
 
 }
+h1{
+  font-size: 80px;
+}
 .postcard{
-   border: solid 5px rgb(58, 26, 219);
+   border: solid 5px rgb(58, 26, 219, 0.2);
+   background-color: rgb(225, 238, 238, 0.5);
+   height: 50vh;
+   border-radius: 20px;
+   padding: 20px;
+   /* margin: 20px; */
+   margin-top: 2vh;
+   box-shadow: 3px 3px 3px 1px rgb(0 0 0 / 28%);
+   list-style:none;
+}
+li{
+    align-items: center;
+    justify-content: center;
 }

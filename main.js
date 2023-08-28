@@ -18,20 +18,29 @@ function displayRedditPost(childrenArray){
 
         const postTitleH3 = document.createElement('h3');
         const postAuthorP = document.createElement('p');
+        const postCreatedP = document.createElement('p');
         const postScoreSpan = document.createElement('span');
+        const postUrlImg = document.createElement('img');
+        
 
         const titleNode = document.createTextNode(post.title);
         const authorNode = document.createTextNode(post.author);
+        const createdNode = document.createTextNode(post.created);
         const scoreNode = document.createTextNode(post.score);
+        const urlNode = document.createTextNode(post.url);
 
         postTitleH3.appendChild(titleNode);
         postAuthorP.appendChild(authorNode);
-        postScoreSpan.appendChild(scoreNode );
+        postCreatedP.appendChild(createdNode);
+        postScoreSpan.appendChild(scoreNode);
+        postUrlImg.appendChild(urlNode);
 
 
         postListElement.appendChild(postTitleH3);
         postListElement.appendChild(postAuthorP);
         postListElement.appendChild(postScoreSpan);
+        postListElement.appendChild(postUrlImg);
+        postListElement.appendChild(postCreatedP);
 
         postList.appendChild(postListElement);
 }
@@ -40,3 +49,5 @@ function displayRedditPost(childrenArray){
 // const service = new RedditService()
 
 // service.getRedditData2()
+
+

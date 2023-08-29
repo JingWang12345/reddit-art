@@ -24,11 +24,11 @@ header{
 
 
 }
-.image{
+/* .image{
     display: flex;
    width: 20vw;
    height: auto;
-}
+} */
 
 button:hover{
     background-color: #2d78f4;

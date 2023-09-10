@@ -15,7 +15,7 @@ html{
 header{
     position:fixed; 
     height: 20vh;
-    width:50vw;
+    width:100vw;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -24,14 +24,15 @@ header{
 
 
 }
-/* .image{
-    display: flex;
-   width: 20vw;
-   height: auto;
-} */
+.image{
+   width: 200px;
+}
 
 button:hover{
     background-color: #2d78f4;
+}
+.box{
+    width: 100vw;
 }
 .postcard{
    border: solid 5px rgb(58, 26, 219, 0.2);
